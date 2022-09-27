@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar-subnav {
+  height: 40px;
+  background-color: lightgray;
+}
+
+.navbar-subnav .img-subnav {
+  margin-left: 50px;
+}
+
+.navbar-main li {
+  margin: 0 10px;
+}
+
+.navbar-main {
+  text-align: center;
+}
+
+.navbar-nike {
+  margin-left: 50px;
+}
+
+#banner {
+  width: 100%;
+  height: 60vh;
+  background-image: url(https://images.unsplash.com/photo-1536121752905-02ab90945c26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#banner h1 {
+  font-weight: 600;
+  color: aliceblue;
+  margin-left: 50px;
+}
+
+.input-group {
+  width: 300px;
+}
+
+#search {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+#product {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#product .details {
+  text-align: start;
+}
+
+.has-search .search-icon {
+  position: absolute;
+  line-height: 38px;
+  right: 25px;
+}
+
+#NIKE-FC {
+  text-align: center;
+  margin: 40px 0;
+}
+#just-in-product h4 {
+  margin-left: 50px;
+}
+
+#table1 {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.product-justin {
+  height: 400px;
+  width: 400px;
+}
+.product-img {
+  padding: 0 6px;
+}
+.product-des {
+  margin-top: 10px;
+  margin-left: 8px;
+  line-height: 0.8;
+}
+
+#tbody1 {
+  display: flex;
+  justify-content: center;
+}
+
+#tbody2 {
+  display: flex;
+  justify-content: center;
+}
+
+#Featured {
+  margin-top: 20px;
+}
+
+#Featured > h4 {
+  margin-left: 50px;
+}
+
+#table2 {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.td2-1 {
+  background-image: url(https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_700,c_limit/19052a42-5e0e-4054-871f-2b9bc690fd50/nike-just-do-it.png);
+  width: 600px;
+  height: 70vh;
+  background-size: cover;
+  position: relative;
+}
+
+.td2-2 {
+  background-image: url(https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a0fbe283-7641-4c58-931f-0fcf58db9812/swoosh-icon-clash-support-non-padded-all-over-print-sports-bra-ZtdLjT.png);
+  width: 600px;
+  height: 70vh;
+  background-size: cover;
+  position: relative;
+}
+
+.tr2 {
+  margin: 0 10px;
+}
+
+.featured-cap-1{
+    margin-left: 25px;
+    position: absolute;
+    bottom: 45px;
+    left: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+.featured-cap-1 > .btn-shop{
+    border-radius: 50px;
+}
+
+.featured-cap-2{
+    margin-left: 25px;
+    position: absolute;
+    bottom: 45px;
+    left: 15px;
+    color: black
+    ;
+    font-size: 25px;
+}
+
+.featured-cap-2 > .btn-shop{
+    border-radius: 50px;
+}
+
+#trending{
+    margin: auto;
+}
+#img{
+    width: 91%;
+    height: 570px;
+    margin: 0 auto;
+}
+#img > img{
+    width: 100%;
+}
+#trending-header{
+    margin:30px 30px 50px 0px;
+}
