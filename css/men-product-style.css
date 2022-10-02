@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar-subnav {
+  height: 40px;
+  background-color: lightgray;
+}
+
+.navbar-subnav .img-subnav {
+  margin-left: 50px;
+}
+/*nav bar main*/
+.navbar-main li {
+  margin: 0 10px;
+}
+
+.navbar-main {
+  text-align: center;
+}
+
+.navbar-nike {
+  margin-left: 50px;
+}
+.has-search .search-icon {
+  position: absolute;
+  line-height: 38px;
+  right: 25px;
+}
+
+/* filters */
+#header-filter{
+    line-height: 46px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400    ;
+}
+#filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 46px;
+    padding: 0 50px;
+}
+
+.filters-sort{
+    display: flex;
+}
+.btn-filter{
+    padding: 0 30px;
+    border: none;
+    background-color: white;
+}
+#dropdown-sort{
+    line-height: 46px;
+}
+.btn-hide{
+    position: relative;
+}
+.btn-hide::after{
+    content: "";
+    background: url(https://img.icons8.com/ios/20/000000/activity-grid-2.png);
+    width: 20px;
+    height: 20px;
+    float: right;
+    position: absolute;
+    top: 15px;
+    right: 8px;
+}
+/* categories */
+#container{
+    display: flex;
+}
+#men-shoes{
+    padding-left: 0;
+    padding-top: 10px;
+}
+#men-shoes .type-of-shoe{
+    list-style-type: none;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+#menu{
+    padding-left: 50px;
+}
+#categories{
+    width: 20%;
+}
+/* container */
+.row-cols-4>* {
+    flex: 0 0 auto;
+    width: 32%;
+    padding: 5px;
+}
+.product-description{
+    font-size: 13px;
+    line-height: 0.2;
+    margin-top: 10px;
+}
+@media screen and (max-width: 990px){
+    .navbar-subnav{
+      display: none;
+    }
+  }
